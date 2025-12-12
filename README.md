@@ -246,8 +246,8 @@ curl -vk https://app.localhost/
 **Rôle :** Expose les services en HTTPS avec certificat auto-signé.
 
 **Ports :**
-- 80 (HTTP) → redirige vers 443
-- 443 (HTTPS) → expose l'app et Grafana
+- 8088 (HTTP) → redirige vers 443
+- 8443 (HTTPS) → expose l'app et Grafana
 
 **Configuration :**
 - Lecture du Docker socket pour découvrir les services
